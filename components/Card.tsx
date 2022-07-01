@@ -1,43 +1,48 @@
 import * as WebBrowser from 'expo-web-browser';
-import { StyleSheet, TouchableOpacity } from 'react-native';
+import { FC } from 'react';
+import { StyleSheet, TouchableOpacity, View, Text } from 'react-native';
 
 import Colors from '../constants/Colors';
 import { MonoText } from './StyledText';
-import { Text, View } from './Themed';
 
-export default function EditScreenInfo({ path }: { path: string }) {
+
+interface CardProps {
+  title: string;
+  content: string;
+}
+
+const Card:FC<CardProps> = ({title,content, children}) => {
   return (
-    <View>
+    <View style={styles.card}>
       <View style={styles.getStartedContainer}>
-        <Text
+        {/* <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
           Open up the code for this screen:
-        </Text>
+        </Text> */}
 
         <View
           style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
-          darkColor="rgba(255,255,255,0.05)"
-          lightColor="rgba(0,0,0,0.05)">
-          <MonoText>{path}</MonoText>
+          >
+          <MonoText>{title}</MonoText>
         </View>
 
-        <Text
+        {/* <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
           Change any of the text, save the file, and your app will automatically update.
-        </Text>
+        </Text> */}
       </View>
+        <View style={styles.helpContainer}>
+          <TouchableOpacity style={styles.helpLink}>
+            <Text style={styles.helpLinkText} >
+              {content + '. ' + content}
+            </Text>
+          </TouchableOpacity>
+        </View>
 
-      <View style={styles.helpContainer}>
-        <TouchableOpacity onPress={handleHelpPress} style={styles.helpLink}>
-          <Text style={styles.helpLinkText} lightColor={Colors.light.tint}>
-            Tap here if your app doesn't automatically update after making changes
-          </Text>
-        </TouchableOpacity>
-      </View>
     </View>
   );
 }
@@ -49,12 +54,31 @@ function handleHelpPress() {
 }
 
 const styles = StyleSheet.create({
+  card: {
+    flex: 1,
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    padding: 10,
+    margin: 10,
+    shadowColor: '#a30000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 1,
+    borderWidth: 0.5,
+    borderColor: '#a30000',
+    borderStyle: 'solid',
+    overflow: 'hidden',
+    // position: 'relative',
+  },
   getStartedContainer: {
-    alignItems: 'center',
-    marginHorizontal: 50,
+    // alignItems: 'center',
+    // marginHorizontal: 50,
+    // marginBottom: 20,
+    
   },
   homeScreenFilename: {
-    marginVertical: 7,
+    marginVertical: 10,
   },
   codeHighlightContainer: {
     borderRadius: 3,
@@ -67,7 +91,7 @@ const styles = StyleSheet.create({
   },
   helpContainer: {
     marginTop: 15,
-    marginHorizontal: 20,
+    // marginHorizontal: 20,
     alignItems: 'center',
   },
   helpLink: {
@@ -75,5 +99,9 @@ const styles = StyleSheet.create({
   },
   helpLinkText: {
     textAlign: 'center',
+    color: 'black',
   },
 });
+
+
+export default Card;

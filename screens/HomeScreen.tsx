@@ -1,65 +1,112 @@
 
-import { Text, View } from '../components/Themed';
+// import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
-import { StyleSheet, ImageBackground } from "react-native";
+import { StyleSheet, FlatList, ScrollView, View, Text, Image, SectionList } from "react-native";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Card from '../components/Card';
 
 const image = {
-  uri: "https://images.pexels.com/photos/6631428/pexels-photo-6631428.jpeg"
+  uri: 'https://images.pexels.com/photos/5061702/pexels-photo-5061702.jpeg?cs=srgb&dl=pexels-fringer-cat-5061702.jpg&fm=jpg',
+  
+  width: 120,
+  height: 250,
+  resizeMode: "contain"
+
+
 };
 
 export default function HomeScreen({ navigation }: RootTabScreenProps<'Home'>) {
+  const people = [
+    {
+      id: 1,
+      title: 'Great Title 1',
+      content: 'Some content for the card 1. More content for the card 1',
+    },
+    {
+      id: 2,
+      title: 'Great Title 2',
+      content: 'Some content for the card 2. More content for the card 2.',
+    },
+    {
+      id: 3,
+      title: 'Great Title 3',
+      content: 'Some content for the card 3. More content for the card 3.',
+    },
+    {
+      id: 4,
+      title: 'Great Title 4',
+      content: 'Some content for the card 4. More content for the card 4.',
+    },
+  ]
   return (
-    <View style={styles.app}>
+    <ScrollView style={styles.app}>
       <Header />
+      <View >
+        <Text style={styles.landingText}>
+          Discover
+        </Text>
       <View style={styles.landingSection}>
         <View style={styles.image}>
-          <Text style={styles.landingText}>
-            We Are
-          </Text>
-          <Text style={styles.landingText}>
-            The Good Company
-          </Text>
-        </View>
+            {/* <Image source={image} /> */}
+          </View>
+          <View style={styles.image}>
+            {/* <Image source={image} /> */}
+          </View>
+          <View style={styles.image}>
+            {/* <Image source={image} /> */}
+          </View>
       </View>
+      </View>
+      <FlatList data={people} renderItem={(element) => <Card title={element.item.title} content={element.item.content} />} />
+        
+
       
-      <View style={styles.landingSection}>
-        <Text style={styles.landingText}>
-          We Build  Brands
-        </Text>
-      </View>
+      
+      
+      {/* <View style={styles.landingSection}>
+      </View> */}
       <Footer />
-    </View>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   app: {
-    height: 100,
-    backgroundColor: "#fff",
+    height: 1000,
     width: 400,
-    overflowY: 0
+    overflowY: 0,
+    // position: 'relative',
+    backgroundColor: "#1d3557",
+    color: '#fff'
   },
   landingSection: {
-    height: 500,
-    justifyContent: "center",
+    height: 250,
+    justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "#eee",
-    width: 400
+    width: 400,
+    flexDirection: "row",
   },
   image: {
-    flex: 1,
-    justifyContent: "center",
-    width: 400,
-    opacity: 0.5,
-    backgroundColor: '#eee'
+    // flex: 1,
+    flexDirection: "row",
+    // justifyContent: "center",
+    width: 120,
+    height: 200,
+    borderColor: '#e63946',
+    borderWidth: 1,
+    borderRadius: 15,
+    backgroundColor: '#f1faee',
+    color: '#fff',
+    
   },
   landingText: {
-    color: "#000",
+    color: '#f1faee',
+    // backgroundColor: '#f1fffa',
     textAlign: "center",
     fontSize: 30,
-    fontWeight: '900'
+    fontWeight: '900',
+    padding: 3
   }
 });
 
