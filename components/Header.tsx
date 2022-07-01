@@ -4,25 +4,25 @@ import { View, Text, StyleSheet } from "react-native";
 const Header = () => {
     return (
         <View style={styles.headerContainer}>
-            <Text style={styles.headerText}>The Good Company Ke</Text>
+            <Text style={styles.headerText}>React Native</Text>
         </View>
     );
 };
 
 const styles = StyleSheet.create({
     headerContainer: {
-        backgroundColor: "white",
+        backgroundColor: "#1d3557",
         padding: 20,
-        color: "white",
+        color: "#f1faee",
         width: 400,
-        position: "absolute",
+        // position: "absolute",
         top: 0,
         left: 0,
         right:0,
         zIndex: 999
     },
     headerText: {
-        color: "black",
+        color: "#f1faee",
         textAlign: "center",
         fontWeight: '900',
         textTransform: "uppercase"
