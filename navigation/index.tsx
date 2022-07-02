@@ -20,15 +20,23 @@ import UploadScreen from '../screens/UploadScreen';
 import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 import LatestContentScreen from '../screens/LatestContentScreen';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import { View } from '../components/Themed';
+
+
+
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
-    <NavigationContainer
-      linking={LinkingConfiguration}
-      theme={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <RootNavigator />
-    </NavigationContainer>
-  );
+    <NavigationContainer>
+     <DrawerNavigator />
+    </NavigationContainer>)
+  //   <NavigationContainer
+  //     linking={LinkingConfiguration}
+  //     theme={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+  //     <RootNavigator />
+  //   </NavigationContainer>
+  // );
 }
 
 /**
@@ -162,6 +170,36 @@ function BottomTabNavigator() {
       />
     </BottomTab.Navigator>
   );
+}
+
+const Drawer = createDrawerNavigator();
+
+const DrawerNavigator = () => {
+  return (
+      <Drawer.Navigator initialRouteName="Home">
+        <Drawer.Screen name="Music" component={HomeScreen} />
+      <Drawer.Screen name="Radio" component={LatestContentScreen} />
+      <Drawer.Screen name="Events" component={MenuScreen} />
+      <Drawer.Screen name="G-Spot" component={ProfileScreen} />
+      <Drawer.Screen name="About" component={ProfileScreen} />
+      
+      <Drawer.Group screenOptions={ 
+        {
+          headerTitle: 'Settings',
+          headerStyle: {
+            backgroundColor: '#6a51ae',
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }
+      }>
+        <Drawer.Screen name='Settings' component={ProfileScreen} />
+        <Drawer.Screen name='Logout' component={ProfileScreen} />
+</Drawer.Group>
+    </Drawer.Navigator>
+  )
 }
 
 /**
