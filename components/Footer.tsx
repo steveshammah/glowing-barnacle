@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
         padding: 20,
         color: "white",
         position: "absolute",
-        width:400,
-        bottom: -500,
+        // width:400,
+        bottom: 0,
         left: 0,
         right: 0
     },
