@@ -1,47 +1,76 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
+import { TouchableOpacity } from "react-native-gesture-handler";
 import PagerView from "react-native-pager-view";
+import EpisodeSlider from "../components/EpisodeSlider";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ShowCard from "../components/ShowCard";
-import SideNav from "../components/SideNav";
-// import { Text, View } from "../components/Themed";
+import { images } from "../assets/images/index";
 
-const image = {
-    uri: "https://images.pexels.com/photos/6631428/pexels-photo-6631428.jpeg"
-    };
+
+
+
 
 const LatestContentScreen = () => {
-    const [randomText, setRandomText] = useState('Some Random Text');
-    const contentData = useCallback(async () => {
+    const [data, setData] = useState({
+        id: 1,
+        content: "",
+        secondaryText: 'Every Friday at 7:00pm',
+    });
+    const contentData = useCallback(() => {
+        try {
+            setInterval(async() => {
             const response = await fetch('https://api.quotable.io/random');
-            const data = await response.json();
-            setRandomText(data.content);
+            const responseData = await response.json();
+            setData((prevData) => ({ ...prevData, content: responseData.content}));
+        }, 5000);
+            
+        } catch (error) {
+            console.log(error);
+        }
+            
+        
     }, []);
     
     
     useEffect(() => {
-        setInterval(() => {
-            contentData()
-        }, 10000);
+        contentData()
+        
     }
-    , [contentData]);
+    , []);
     
     return (
-        <View>
+        <View style={styles.container} >
             <Header />
-            <ScrollView>
-        <View style={styles.container}>
-            <View style={styles.sliderContainer}>
-                        <PagerView style={styles.pagerView} initialPage={0}>
-                            {/* <Image source={image} style={styles.image} /> */}
-                            {/* <Text style={styles.randomText}>{randomText}</Text> */}
-                            <ShowCard text={randomText} />
-                            <ShowCard text={randomText} />
-                            <ShowCard text={randomText} />
-                </PagerView>
+            <ScrollView style={{marginTop: 40, padding: 0}}>
+        <View style={styles.content}>
+            <View style={styles.mainCard}>
+                <TouchableOpacity style={styles.cardContainer}>
+                    <ShowCard data={data} />
+                </TouchableOpacity>
+                        <View style={{flex: 1}}>
+                            <Text style={styles.subtitle}>Browse by Genre</Text>
+                            <PagerView style={styles.mainCardBrowser} initialPage={0}>
+
+                                <View style={styles.imageWrapper}>
+                                    <Text style={styles.imageText}>Podcast</Text>
+                                    <Image source={images.theMicsAreOpen} style={styles.image} />
+                                </View>
+                                <View style={styles.imageWrapper}>
+                                    <Image source={images.mainLogo} style={styles.image} />
+                                </View>
+                                <View style={styles.imageWrapper}>
+                                    <Image source={images.lockdownSessions} style={styles.image} />
+                                </View>
+                               
+                            </PagerView>
+
+                        </View>
+                        
+                        <EpisodeSlider />
+                        <EpisodeSlider />
             </View>
-        {/* <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" /> */}
             </View>
             <Footer />
             </ScrollView>
@@ -51,57 +80,58 @@ const LatestContentScreen = () => {
 
 const styles = StyleSheet.create({
     container: {
-        // flex: 1,
-        alignItems: 'center',
-        height: 900, 
+        flex: 1,
+        backgroundColor: '#212529',
     },
-    sliderContainer: {
-        // flex: 1,
-        // alignItems: 'center',
-        // justifyContent: 'center',
-        // height: 400,
-        backgroundColor: 'lime',
-        paddingTop: 70
+    content: {
+        flex: 1,
 
     },
-    slider: {
-        backgroundColor: 'red',
-        height: 250,
-        width: 400,
-        padding: 20
-    },
-    pagerView: {
-        flex: 1,
-        // direction: 'rtl',
-        // backgroundColor: 'red',
-        // height: 400,
-    },
-    image: {
-        width: 400,
-        height: 400,
-        resizeMode: "cover",
+    mainCard: {
         
     },
-    title: {
+    mainCardBrowser: {
+        height: 150,
+        
+    },
+    imageText: {
         fontSize: 20,
-        fontWeight: 'bold',
-    },
-    separator: {
-        marginVertical: 30,
-        height: 1,
-        // width: '80%',
-    },
-    randomText: {
-        fontSize: 24,
-        fontWeight: '900',
+        color: '#CED4DA',
         textAlign: 'center',
-        textTransform: 'uppercase',
-        color: 'black',
-        // position: 'absolute',
-        // top: '25%',
-        
-        // transform: '',
+        marginTop: 10,
+        marginBottom: 10,
+        position: 'absolute',
+        top: 50,
+        zIndex: 999,
+    },
+    subtitle: {
+        fontSize: 20,
+        color: '#CED4DA',
+        fontWeight: 'bold',
+        paddingLeft: 10,
+        marginTop: 10,
+        marginBottom: 10,
+    },
+    cardContainer: {
+        height: 250,
+    },
+ 
+    imageWrapper: {
+        position: 'relative',
+        borderRadius: 10,
+        alignItems: 'center',
+    
     }
+    ,
+    image: {
+        backgroundColor: '#343A40',
+        height: 150,
+        borderRadius: 10,
+        width: '70%',
+        resizeMode: 'contain',
+    },
+ 
+ 
 });
 
 
