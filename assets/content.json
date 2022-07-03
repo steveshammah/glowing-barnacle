@@ -1,0 +1,1704 @@
+{
+    "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iEeho03oTyWxu_yWkahpbSrKgg8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uwefoqvuy-4"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-02T06:15:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call With Grauchi #78 Sungba",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uwefoqvuy-4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uwefoqvuy-4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uwefoqvuy-4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-02T06:15:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y0WshpalCjJxNlreYqcPvPEbYiA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3pYSuLxWp9k"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-01T19:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions with Cng The Dj &amp; Dj Dream",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3pYSuLxWp9k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3pYSuLxWp9k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3pYSuLxWp9k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-01T19:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GWPyVi8RlCGwHWkO5OuyeA_tmfM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XY7ExTAwtn8"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-01T07:00:13Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #165 Kimanzi!! Get Out Of My House 😡",
+        "description": "The pod is LITTY today, the crew wrap up the weeks happenings, G explains why he's been off the pod and why the influencer ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XY7ExTAwtn8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XY7ExTAwtn8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XY7ExTAwtn8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-01T07:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kCsIwYmxogff3xCyX9puhsqFt1o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Gn3uDBqL4PU"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-25T06:15:10Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #77 Tukutane",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Gn3uDBqL4PU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Gn3uDBqL4PU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Gn3uDBqL4PU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-25T06:15:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HRlRGEaKGbZweSsgwzweyoUQpAU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o61Y2DxhbQ8"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-24T19:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions with Twinn 48 &amp; Dj Moose",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o61Y2DxhbQ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o61Y2DxhbQ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o61Y2DxhbQ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-24T19:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hsKiG1h9-0IirMAXmB3OkjJw-7k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Qj5MfauMxyM"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-24T07:00:11Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #164 &quot;C&quot; Students Employ &quot;A&quot; Students #Facts",
+        "description": "That dumb guy at school is now your boss and you feel bad. It happens right? Also KRA are spying on you in more ways than one.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Qj5MfauMxyM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Qj5MfauMxyM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Qj5MfauMxyM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-24T07:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6Pq--bwzpxjBS9U41dkH3Tt3VUs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HH_-7NwTbIc"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-18T06:15:10Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #76 Konvicts",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HH_-7NwTbIc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HH_-7NwTbIc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HH_-7NwTbIc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-18T06:15:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M2Su8Mp3pwD8zVpjysD27tGEYp0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-cU6z8XygOc"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-17T19:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Karoski &amp; Wijje",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-cU6z8XygOc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-cU6z8XygOc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-cU6z8XygOc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-17T19:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0ryw1KaopnPjLe0T1cYx0tJte4Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xk8oNUfrrAE"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-17T07:00:16Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #163 Ladies, Give Us Money, We Won&#39;t Cheat!",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xk8oNUfrrAE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xk8oNUfrrAE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xk8oNUfrrAE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-17T07:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4K2lKKkWWVx_i3kz11YyrwliTl4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "alh5cSyDjvs"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-11T06:15:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #75 Buga",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/alh5cSyDjvs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/alh5cSyDjvs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/alh5cSyDjvs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-11T06:15:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3lXNe31jKApLkL2OwguvaNLGk0U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BUkRISKSKQc"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-10T20:30:09Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The LockdownSessions ft Dj Redbone &amp; Trixxy",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BUkRISKSKQc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BUkRISKSKQc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BUkRISKSKQc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-10T20:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Yri9O38wIsioGbcjjjzUlLshnFc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FohRMS4H8yU"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-10T06:00:15Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #162  - Naeza Tolea Sauti Sol Vest!!",
+        "description": "There are two types of people and you are one of them! Have you ever shared a house with a couple who made a lot of noise ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FohRMS4H8yU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FohRMS4H8yU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FohRMS4H8yU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-10T06:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "d8QyFP1TldPoR9uXeyAgUhQ0ZxE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xToemVdCeKo"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-04T06:15:11Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call With Grauchi #74 Africa Connect",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xToemVdCeKo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xToemVdCeKo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xToemVdCeKo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-04T06:15:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iKQ5vFPFWmeroMzQan6TSvm7PIE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aO1ggP7hnT4"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-03T19:00:13Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Dj Tophaz &amp; Deejay Otiz",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aO1ggP7hnT4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aO1ggP7hnT4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aO1ggP7hnT4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-03T19:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lXJLACz7oHvkvH-FFhKZdPhKDUM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Z9b8y6XGu0Y"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-03T07:00:11Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #161 My Grandma&#39;s Pregnant!",
+        "description": "Mandem, seems like you'll have to work extra hard to get a \"cook\" in this economy as Ashley says she and the girls ain't cooking ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z9b8y6XGu0Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z9b8y6XGu0Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z9b8y6XGu0Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-03T07:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wQKxcXY03VpdZfVBO8A-l6-d3Rk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7KTmkgET9Ds"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-28T06:15:09Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call With Grauchi #73 Clean",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7KTmkgET9Ds/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7KTmkgET9Ds/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7KTmkgET9Ds/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-28T06:15:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HU8lKRozqs_m6PW_8wS_U1247qs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VGOvLH4CRa4"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-27T19:00:11Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Dj Schwaz &amp; Dj Leather",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VGOvLH4CRa4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VGOvLH4CRa4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VGOvLH4CRa4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-27T19:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w-i5JjPVdPnYqbJLtBT03BVcbts",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YEsI3Oq4CJ4"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-27T07:00:15Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #160 Money Makes Women Attractive!",
+        "description": "Why are men under pressure to have money? Shouldn't Women feel that pressure too? - Don't worry, we aren't becoming a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YEsI3Oq4CJ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YEsI3Oq4CJ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YEsI3Oq4CJ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-27T07:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7q4MbdH3qBr1iGvYjtoIS1lHoHk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IUEbs-M9YYQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-21T06:15:11Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call With Grauchi #72 Sunday",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IUEbs-M9YYQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IUEbs-M9YYQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IUEbs-M9YYQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-21T06:15:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BDwRGZSU3z0r4lmr_bnvDahNnsU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zl_luQYLb8s"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-20T19:00:13Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Gibbz Daqchild &amp; KtheDJ",
+        "description": "JAMESON CONNECT 21ST MAY GET YOUR TICKETS RIGHT NOW...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zl_luQYLb8s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zl_luQYLb8s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zl_luQYLb8s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-20T19:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oTKHdLs_-zK2Vjs_6itHp5tHTO0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rWpDjpTDtg8"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-20T07:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #159 Arimis vs Vaseline",
+        "description": "JAMESON CONNECT 21ST MAY GET YOUR TICKETS RIGHT NOW...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rWpDjpTDtg8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rWpDjpTDtg8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rWpDjpTDtg8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-20T07:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_WrPNji4d3eylrjVW-ehRiG633M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xnbtwp4_zxw"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-14T06:15:10Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #71 Gina",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xnbtwp4_zxw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xnbtwp4_zxw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xnbtwp4_zxw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-14T06:15:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y24wh1tT-d_5OrsA1huD6rT__Pc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "k8Iy2a-BKEA"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-13T19:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Deejay Kace &amp; Sunny Sistuki",
+        "description": "International Mandem!!!! Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k8Iy2a-BKEA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k8Iy2a-BKEA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k8Iy2a-BKEA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-13T19:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lw4nwiAJ4kzWweYaBZ9ag35x3_8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zc3WBo_FCio"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-13T07:00:10Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #158 But Can You Swim Though?",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zc3WBo_FCio/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zc3WBo_FCio/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zc3WBo_FCio/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-13T07:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "otEdlK6HeVnqYiKlaaJSfAJD_xI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ke4saLgkyEQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-08T06:15:10Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #70 Caliente",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ke4saLgkyEQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ke4saLgkyEQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ke4saLgkyEQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-08T06:15:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uywFAdccFOpBmV_rf3pw60iQH40",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WDpzDaA-_9Q"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-06T19:30:09Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Big Sam &amp; Karoski",
+        "description": "We have them Yet Again.. Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WDpzDaA-_9Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WDpzDaA-_9Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WDpzDaA-_9Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-06T19:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6pSUt0zXGxvduxmuB7s76LmZclE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0pC72rw-prs"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-06T07:00:11Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #157 - We Ain&#39;t Close Friends",
+        "description": "This week Andy, G and Calvin chop it up about close friends groups, male empowerment and protecting freedom of speech!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0pC72rw-prs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0pC72rw-prs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0pC72rw-prs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-06T07:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hOG73DQ46YLpk9PvODiBgXgkmTo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FCPp0AeUwcg"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-30T06:15:09Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #69 Crucial",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FCPp0AeUwcg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FCPp0AeUwcg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FCPp0AeUwcg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-30T06:15:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "98hZ2iUCQSevHluoLFSsj2NuWkU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wKp6JXhP6eo"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-29T19:00:24Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Dj Redbone &amp; Dj Lucita",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wKp6JXhP6eo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wKp6JXhP6eo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wKp6JXhP6eo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-29T19:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M2HK8vWUq9UwyIF54FogbRf0AdM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bK1S_HVwxj0"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-29T07:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open - Episode 156 -  I Got 5 On It (The Weekend Edition)",
+        "description": "It's a 5 day weekend and it seems the lads are broke so they aren't happy. The conversation ranges from the weekend, to whether ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bK1S_HVwxj0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bK1S_HVwxj0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bK1S_HVwxj0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-29T07:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rQXEnkIFaJrvjDurqJLyjJf4_Hw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rf3OHM8oqIg"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-23T06:15:10Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call With Grauchi #68 Sting",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rf3OHM8oqIg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rf3OHM8oqIg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rf3OHM8oqIg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-23T06:15:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mEpZoGKUkT2ICoCqffEq8u7zkHY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Q6HOvgtcLnk"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-22T19:15:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft G Money &amp; Andy Young",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q6HOvgtcLnk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q6HOvgtcLnk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q6HOvgtcLnk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-22T19:15:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KP6nbD1-kEpSQwMEn64Sta5BkVQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "T_H3YVw59_4"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-16T06:15:33Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call With Grauchi #67 Kebele",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T_H3YVw59_4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T_H3YVw59_4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T_H3YVw59_4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-16T06:15:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uDnmq4rHoH3xHkUIzdeMrkkeIbQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "f5x90gaYzc0"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-15T19:00:13Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Dj Roq &amp; Wijje",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f5x90gaYzc0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f5x90gaYzc0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f5x90gaYzc0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-15T19:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "L7ff3sBmPdJ1Ph56mWF1_J-0hKs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wDTF3fajwcs"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-15T11:00:25Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open - Episode 155 - Your Barber is The Problem!!",
+        "description": "The lads are on a wild one today, they discuss how barber shops have changed over the years and whether men have actually ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wDTF3fajwcs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wDTF3fajwcs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wDTF3fajwcs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-15T11:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AGifWWx2NZP08BR9bDfNA3a2QQg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IQ7BI2yMfh0"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-08T19:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Zj Heno &amp; Wanyama The Dj",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IQ7BI2yMfh0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IQ7BI2yMfh0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IQ7BI2yMfh0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-08T19:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l5kQl2JvCiC0U9ZM5bp8TF06V3o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hydor7FHouY"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-08T07:00:09Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #154 -  Kuoga na Kurudi Soko",
+        "description": "The lads are on form today and Ash Money makes an appearance! #TheMicsAreOpen #AfricanPodcast #KenyanPodcast.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hydor7FHouY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hydor7FHouY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hydor7FHouY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-08T07:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7oxUtujxf_ms0RPPbPtxg6T8tb8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3ztfgoboWd4"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-02T06:15:09Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #65 Bamby",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3ztfgoboWd4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3ztfgoboWd4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3ztfgoboWd4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-02T06:15:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fxvKR9ST1qak1oVqE0qRkNw6zr4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p3kpLuLgNGo"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-01T07:00:11Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open - #153 - Stay Slapped!!",
+        "description": "As the fall out from the Oscars contines, the lads dissect everything. Andy asks if your significant other can be your best friend.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p3kpLuLgNGo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p3kpLuLgNGo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p3kpLuLgNGo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-01T07:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JJclMrUAnlIWYK7h3ractpdGsq4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZhGDwuA8Jf0"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-26T06:30:08Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #64 Juicy",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZhGDwuA8Jf0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZhGDwuA8Jf0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZhGDwuA8Jf0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-26T06:30:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eiZNlzp3UGTKm1uhLHn9f2-42M8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oIzXD2UxaXA"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-25T19:00:10Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Dj Schwaz &amp; Dj Namosky",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oIzXD2UxaXA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oIzXD2UxaXA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oIzXD2UxaXA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-25T19:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a8RlXwOSnO-MT3tcVkJh8XEdN7g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gLmUinbJ8Fc"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-25T07:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #152 Rich Family! Broke You!",
+        "description": "If your sibling makes it big, do they owe you anything? Also roaches or ghosts, which would you rather in your house? Also, how ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gLmUinbJ8Fc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gLmUinbJ8Fc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gLmUinbJ8Fc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-25T07:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_JOnrozOPnM_JnNc7kaMHYMlk2o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "O6FHUkEJfVE"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-23T12:00:46Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open | Episode 4 - The Future of Cryptocurrency | YellowCard App",
+        "description": "As we have been saying on the Mics Are Open for a while now it's time for us to demystify Crypto Currency, we have teamed up ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O6FHUkEJfVE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O6FHUkEJfVE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O6FHUkEJfVE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-23T12:00:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "24a4g6Jm9TSdsszwlDqUVMUFobc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "R4b3YQjS-VU"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-23T12:00:13Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open | Episode 2 - Investing In Crypto | YellowCard App",
+        "description": "As we have been saying on the Mics Are Open for a while now it's time for us to demystify Crypto Currency, we have teamed up ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/R4b3YQjS-VU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/R4b3YQjS-VU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/R4b3YQjS-VU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-23T12:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qQVIsbXFCwfcx79LE_uhlH0_axE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "42XQNgNVpwo"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-23T12:00:29Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open | Episode 3 - The Yellow Card Experience | YellowCard App",
+        "description": "As we have been saying on the Mics Are Open for a while now it's time for us to demystify Crypto Currency, we have teamed up ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/42XQNgNVpwo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/42XQNgNVpwo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/42XQNgNVpwo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-23T12:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "feIca8l2WtMC1wxWBRb_PSb99x4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zQI4dFNUvC8"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-19T06:15:27Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Wake Up Call with Grauchi #63 Choplife",
+        "description": "Share di Ting!!! Plug someone right ABOUT now... As Usual, The sound is nice, every Saturday at 9am.. Tshirt plug ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zQI4dFNUvC8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zQI4dFNUvC8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zQI4dFNUvC8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-19T06:15:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TQIe1N8Peow58FW6X4Hs7BlT6UQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xH5kCRkJSgo"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-18T19:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Lockdown Sessions ft Gibbz &amp; Karoski",
+        "description": "Share the link!! to just one more person. Even in this post curfew and lockdown times, the online party doesn't stop! We will still ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xH5kCRkJSgo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xH5kCRkJSgo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xH5kCRkJSgo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-18T19:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nayg_uLnUPtfHjdf10ffMYhvTBE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rr0VGJ_6HFw"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-18T12:00:11Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open | Episode 1 - What is CryptoCurrency | YellowCard  Special",
+        "description": "As we have been saying on the Mics Are Open for a while now it's time for us to demystify Crypto Currency, we have teamed up ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rr0VGJ_6HFw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rr0VGJ_6HFw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rr0VGJ_6HFw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-18T12:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mRFv2690kxHah-H7WJKo70cwrPk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vzsx00TRsMg"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-18T07:00:13Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open #151 -  Love is So Simple When You&#39;re Broke!",
+        "description": "When does love change and become antagonistic? Does it. The lads are discussing it all today! #TheMicsAreOpen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vzsx00TRsMg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vzsx00TRsMg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vzsx00TRsMg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-18T07:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zyKyiastpYU9sOLbZg17ZgE94dY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GKBq-t84ErI"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-17T10:00:12Z",
+        "channelId": "UC7h4tUtdH0L06sDZVmBMc4Q",
+        "title": "The Mics Are Open And YellowCard App - Let&#39;s talk Crypto!",
+        "description": "We've been promising you for a long time that we were going to get to the bottom of Cryptocurrency. Join us on Wednesday the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GKBq-t84ErI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GKBq-t84ErI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GKBq-t84ErI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Good Company KE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-17T10:00:12Z"
+      }
+    }
+  ]
+}

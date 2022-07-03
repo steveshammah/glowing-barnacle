@@ -1,10 +1,10 @@
-
-// import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 import { StyleSheet, FlatList, ScrollView, View, Text, Image, SectionList } from "react-native";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Card from '../components/Card';
+import content from '../assets/content.json';
+import { images } from '../assets/images';
 
 const image = {
   uri: 'https://images.pexels.com/photos/5061702/pexels-photo-5061702.jpeg?cs=srgb&dl=pexels-fringer-cat-5061702.jpg&fm=jpg',
@@ -17,28 +17,6 @@ const image = {
 };
 
 export default function HomeScreen({ navigation }: RootTabScreenProps<'Home'>) {
-  const people = [
-    {
-      id: 1,
-      title: 'Great Title 1',
-      content: 'Some content for the card 1. More content for the card 1',
-    },
-    {
-      id: 2,
-      title: 'Great Title 2',
-      content: 'Some content for the card 2. More content for the card 2.',
-    },
-    {
-      id: 3,
-      title: 'Great Title 3',
-      content: 'Some content for the card 3. More content for the card 3.',
-    },
-    {
-      id: 4,
-      title: 'Great Title 4',
-      content: 'Some content for the card 4. More content for the card 4.',
-    },
-  ]
   return (
     <ScrollView style={styles.app}>
       <Header />
@@ -48,24 +26,23 @@ export default function HomeScreen({ navigation }: RootTabScreenProps<'Home'>) {
         </Text>
       <View style={styles.landingSection}>
         <View style={styles.image}>
-            {/* <Image source={image} /> */}
+            <Image source={images.lockdownSessions} style={styles.image} />
           </View>
           <View style={styles.image}>
-            {/* <Image source={image} /> */}
+            <Image source={images.theMicsAreOpen} style={styles.image} />
           </View>
           <View style={styles.image}>
-            {/* <Image source={image} /> */}
+            <Image source={images.theWakeUpCall} style={styles.image} />
+          </View>
+          <View style={styles.image}>
+            <Image source={images.mainLogo} style={styles.image} />
           </View>
       </View>
       </View>
-      <FlatList data={people} renderItem={(element) => <Card title={element.item.title} content={element.item.content} />} />
-        
+      <View style={{width: '100%'}}>
 
-      
-      
-      
-      {/* <View style={styles.landingSection}>
-      </View> */}
+      <FlatList data={content.items} renderItem={(element) => <Card element={element} />} />
+      </View>
       <Footer />
     </ScrollView>
   );
@@ -74,35 +51,28 @@ export default function HomeScreen({ navigation }: RootTabScreenProps<'Home'>) {
 const styles = StyleSheet.create({
   app: {
     height: 1000,
-    width: 400,
-    overflowY: 0,
-    // position: 'relative',
-    backgroundColor: "#1d3557",
+    backgroundColor: "#212529",
     color: '#fff'
   },
   landingSection: {
     height: 250,
     justifyContent: "space-between",
     alignItems: "center",
-    width: 400,
+    
     flexDirection: "row",
   },
   image: {
-    // flex: 1,
     flexDirection: "row",
-    // justifyContent: "center",
     width: 120,
     height: 200,
-    borderColor: '#e63946',
-    borderWidth: 1,
     borderRadius: 15,
+    marginRight: 10,
     backgroundColor: '#f1faee',
     color: '#fff',
     
   },
   landingText: {
     color: '#f1faee',
-    // backgroundColor: '#f1fffa',
     textAlign: "center",
     fontSize: 30,
     fontWeight: '900',
