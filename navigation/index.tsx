@@ -13,7 +13,7 @@ import { ColorSchemeName, Pressable } from 'react-native';
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import MenuScreen from '../screens/MenuScreen';
-import NotFoundScreen from '../screens/NotFoundScreen';
+import NotFoundScreen from '../screens/ChannelScreen';
 import HomeScreen from '../screens/HomeScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import UploadScreen from '../screens/UploadScreen';
@@ -22,6 +22,9 @@ import LinkingConfiguration from './LinkingConfiguration';
 import LatestContentScreen from '../screens/LatestContentScreen';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import SubscribeScreen from '../screens/SubscribeScreen';
+import ChannelScreen from '../screens/ChannelScreen';
+import ShowScreen from '../screens/ShowScreen';
+import { UserIcon } from 'react-native-heroicons/solid';
 
 
 
@@ -43,14 +46,10 @@ const MyTheme = {
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
     <NavigationContainer theme={DarkTheme}>
-     <DrawerNavigator />
-     {/* <StackNavigator /> */}
+     {/* <DrawerNavigator /> */}
+     <StackNavigator />
     </NavigationContainer>)
-  //   <NavigationContainer
-  //     linking={LinkingConfiguration}
-  //     theme={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-  //   </NavigationContainer>
-  // );
+
 }
 
 /**
@@ -62,11 +61,13 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 function StackNavigator() {
   return (
     <Stack.Navigator >
-      <Stack.Screen name="Root" component={BottomTabNavigator} options={{ headerShown: false }} />
-      <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
-      {/* <Stack.Group screenOptions={{ presentation: 'modal' }}> */}
-        <Stack.Screen name="Profile" component={ProfileScreen} />
-      {/* </Stack.Group> */}
+      <Stack.Screen name="Root" component={BottomTabNavigator} options={{ headerShown: false }}  />
+      <Stack.Screen name="Channel" component={ChannelScreen} />
+        <Stack.Screen name="Latest" component={ProfileScreen}  />
+        <Stack.Screen name="Profile" component={ProfileScreen}  />
+      <Stack.Group screenOptions={{ presentation: 'modal' }}>
+        <Stack.Screen name="Show" component={ShowScreen}  options={{ headerShown: false }} />
+      </Stack.Group>
     </Stack.Navigator>
   );
 }
@@ -82,7 +83,7 @@ function BottomTabNavigator({navigation}) {
 
   return (
     <BottomTab.Navigator
-      initialRouteName="Home"
+      initialRouteName="Root"
         screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme].tint,
         tabBarInactiveTintColor: Colors[colorScheme].tabIconDefault,
@@ -106,10 +107,9 @@ function BottomTabNavigator({navigation}) {
               style={({ pressed }) => ({
                 opacity: pressed ? 0.5 : 1,
               })}>
-              <FontAwesome
-                name="user-secret"
-                size={20}
-                color={Colors[colorScheme].text}
+               <UserIcon
+                size={25}
+                color={'white'}
                 style={{ marginRight: 15 }}
               />
             </Pressable>
@@ -128,10 +128,9 @@ function BottomTabNavigator({navigation}) {
               style={({ pressed }) => ({
                 opacity: pressed ? 0.5 : 1,
               })}>
-              <FontAwesome
-                name="user-secret"
-                size={20}
-                color={Colors[colorScheme].text}
+              <UserIcon
+                size={25}
+                color={'white'}
                 style={{ marginRight: 15 }}
               />
             </Pressable>
@@ -150,10 +149,9 @@ function BottomTabNavigator({navigation}) {
               style={({ pressed }) => ({
                 opacity: pressed ? 0.5 : 1,
               })}>
-              <FontAwesome
-                name="user-secret"
-                size={20}
-                color={Colors[colorScheme].text}
+                <UserIcon
+                size={25}
+                color={'white'}
                 style={{ marginRight: 15 }}
               />
             </Pressable>
@@ -172,10 +170,9 @@ function BottomTabNavigator({navigation}) {
               style={({ pressed }) => ({
                 opacity: pressed ? 0.5 : 1,
               })}>
-              <FontAwesome
-                name="user-secret"
-                size={20}
-                color={Colors[colorScheme].text}
+               <UserIcon
+                size={25}
+                color={'white'}
                 style={{ marginRight: 15 }}
               />
             </Pressable>
@@ -188,20 +185,27 @@ function BottomTabNavigator({navigation}) {
 
 const Drawer = createDrawerNavigator();
 
-const DrawerNavigator = () => {
-  return (
-    <Drawer.Navigator initialRouteName="Music"  >
-      <Drawer.Screen name="Music" component={HomeScreen} />
-      <Drawer.Screen name="Radio" component={LatestContentScreen} />
-      <Drawer.Screen name="Events" component={MenuScreen} />
-      <Drawer.Screen name="G-Spot" component={ProfileScreen} />
-      <Drawer.Screen name="About" component={ProfileScreen} />
-      <Drawer.Screen name='Settings' component={SubscribeScreen} />
-      <Drawer.Screen name='Logout' component={ProfileScreen} />
-      <Drawer.Screen name="Tab Nav" component={BottomTabNavigator} options={{ headerShown: false }} />
-    </Drawer.Navigator>
-  )
-}
+// const DrawerNavigator = ({navigation}) => {
+//   return (
+//     <Drawer.Navigator initialRouteName="Music"  >
+//       <Drawer.Screen name="Music" component={HomeScreen} />
+//       <Drawer.Screen name="Radio" component={LatestContentScreen} />
+//       <Drawer.Screen name="Events" component={MenuScreen} />
+//       <Drawer.Screen name="G-Spot" component={ProfileScreen} />
+//       <Drawer.Screen name="Channel" component={ChannelScreen} options={ 
+//         {
+//           title: 'Oops!',
+//           drawerIcon: ({ color }) => <TabBarIcon name="compass" color={color} size={20} />
+//         }
+        
+//        } />
+//       <Drawer.Screen name="About" component={ProfileScreen} />
+//       <Drawer.Screen name='Settings' component={SubscribeScreen} />
+//       <Drawer.Screen name='Logout' component={ProfileScreen} />
+//       <Drawer.Screen name="Tab Nav" component={BottomTabNavigator} options={{ headerShown: false }} />
+//     </Drawer.Navigator>
+//   )
+// }
 
 /**
  * You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/

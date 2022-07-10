@@ -2,7 +2,7 @@ import { Link } from "@react-navigation/native";
 import React from "react";
 import { Button, Text, View, StyleSheet } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
-import EpisodeSlider from "../components/EpisodeSlider";
+import EpisodeSlider from "../components/CategorySlider";
 import * as WebBrowser from 'expo-web-browser';
 
 

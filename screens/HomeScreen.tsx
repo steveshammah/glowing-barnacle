@@ -1,75 +1,59 @@
-import { RootTabScreenProps } from '../types';
-import { StyleSheet, FlatList, ScrollView, View, Text, Image, SectionList } from "react-native";
-import Footer from "../components/Footer";
+import { StyleSheet, ScrollView,Text, SafeAreaView, } from "react-native";
 import Header from "../components/Header";
-import Card from '../components/Card';
-import content from '../assets/content.json';
-import { images } from '../assets/images';
+import { shows, team } from '../assets/database';
+import CategorySlider from '../components/CategorySlider';
+import { useLayoutEffect } from 'react';
 
 const image = {
   uri: 'https://images.pexels.com/photos/5061702/pexels-photo-5061702.jpeg?cs=srgb&dl=pexels-fringer-cat-5061702.jpg&fm=jpg',
-  
   width: 120,
   height: 250,
   resizeMode: "contain"
-
-
 };
 
-export default function HomeScreen({ navigation }: RootTabScreenProps<'Home'>) {
+export default function HomeScreen({navigation}) {
+  // useLayoutEffect(() => {
+  //   navigation.setOptions({
+  //     header: () => (
+  //       <Header />
+  //     ),
+  //   });
+  // }, [navigation]);
+  
   return (
-    <ScrollView style={styles.app}>
+    <SafeAreaView style={styles.app}>
       <Header />
-      <View >
+    <ScrollView style={styles.app} keyboardShouldPersistTaps='always'>
+      {/* <Header /> */}
+      
         <Text style={styles.landingText}>
           Discover
         </Text>
-      <View style={styles.landingSection}>
-        <View style={styles.image}>
-            <Image source={images.lockdownSessions} style={styles.image} />
-          </View>
-          <View style={styles.image}>
-            <Image source={images.theMicsAreOpen} style={styles.image} />
-          </View>
-          <View style={styles.image}>
-            <Image source={images.theWakeUpCall} style={styles.image} />
-          </View>
-          <View style={styles.image}>
-            <Image source={images.mainLogo} style={styles.image} />
-          </View>
-      </View>
-      </View>
-      <View style={{width: '100%'}}>
-
-      <FlatList data={content.items} renderItem={(element) => <Card element={element} />} />
-      </View>
-      <Footer />
+      
+        <CategorySlider heading="Creators" data={team} rounded/>  
+        <CategorySlider heading={'Channels'} data={shows} />
+        <CategorySlider heading={'Artists'} data={team} />
+      <CategorySlider heading={'Podcasts'} data={shows} rounded />
+        <CategorySlider heading={'Music'} data={shows} />
+        <CategorySlider heading={'Events'} data={shows} />
+      
+      
     </ScrollView>
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
   app: {
-    height: 1000,
+    flex: 1,
     backgroundColor: "#212529",
     color: '#fff'
   },
   landingSection: {
-    height: 250,
+    height: 180,
     justifyContent: "space-between",
     alignItems: "center",
-    
     flexDirection: "row",
-  },
-  image: {
-    flexDirection: "row",
-    width: 120,
-    height: 200,
-    borderRadius: 15,
-    marginRight: 10,
-    backgroundColor: '#f1faee',
-    color: '#fff',
-    
   },
   landingText: {
     color: '#f1faee',
@@ -77,6 +61,17 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: '900',
     padding: 3
+  }  ,
+  content: {
+    padding: 10,
+    flex: 1,
+    marginBottom: 50,
+  },
+  creatorSection: {
+    height: 90,
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexDirection: "row",
   }
 });
 
@@ -99,28 +94,3 @@ const styles = StyleSheet.create({
 
 
 
-//     <View style={styles.container}>
-//       <Text style={styles.title}>This is the homepage</Text>
-//       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-//       {/* <EditScreenInfo path="/screens/TabOneScreen.tsx" /> */}
-//     </View>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//     // backgroundColor: 'red'
-//   },
-//   title: {
-//     fontSize: 20,
-//     fontWeight: 'bold',
-//   },
-//   separator: {
-//     marginVertical: 30,
-//     height: 1,
-//     width: '80%',
-//   },
-// });

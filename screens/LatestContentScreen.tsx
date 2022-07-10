@@ -1,29 +1,30 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
+import { FlatList, Image, ImageBackground, ScrollView, StyleSheet, Text, View } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import PagerView from "react-native-pager-view";
-import EpisodeSlider from "../components/EpisodeSlider";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import ShowCard from "../components/ShowCard";
+import ShowCard, { IshowData } from "../components/ShowCard";
 import { images } from "../assets/images/index";
+import CategorySlider from "../components/CategorySlider";
+import { shows } from "../assets/database";
 
 
 
 
 
 const LatestContentScreen = () => {
-    const [data, setData] = useState({
+    const [data, setData] = useState<IshowData>({
         id: 1,
         content: "",
-        secondaryText: 'Every Friday at 7:00pm',
+        meta: 'Every Friday at 7:00pm',
     });
     const contentData = useCallback(() => {
         try {
             setInterval(async() => {
             const response = await fetch('https://api.quotable.io/random');
             const responseData = await response.json();
-            setData((prevData) => ({ ...prevData, content: responseData.content}));
+            setData((prevData:IshowData) => ({ ...prevData, content: responseData.content}));
         }, 5000);
             
         } catch (error) {
@@ -38,43 +39,43 @@ const LatestContentScreen = () => {
         contentData()
         
     }
-    , []);
+        , []);
+    
+ 
     
     return (
-        <View style={styles.container} >
+    <View style={styles.container} >
             <Header />
-            <ScrollView style={{marginTop: 40, padding: 0}}>
-        <View style={styles.content}>
-            <View style={styles.mainCard}>
+        <ScrollView >
+            <View style={styles.content}>
                 <TouchableOpacity style={styles.cardContainer}>
-                    <ShowCard data={data} />
+                    <ImageBackground source={images.mainLogo} style={styles.cardImage}>
+                        <Text style={styles.cardText}>
+                            {data.content}
+                        </Text>
+                        <Text style={styles.meta}>
+                            {data.meta}
+                        </Text>
+                    </ImageBackground>
                 </TouchableOpacity>
-                        <View style={{flex: 1}}>
-                            <Text style={styles.subtitle}>Browse by Genre</Text>
-                            <PagerView style={styles.mainCardBrowser} initialPage={0}>
-
-                                <View style={styles.imageWrapper}>
-                                    <Text style={styles.imageText}>Podcast</Text>
-                                    <Image source={images.theMicsAreOpen} style={styles.image} />
-                                </View>
-                                <View style={styles.imageWrapper}>
-                                    <Image source={images.mainLogo} style={styles.image} />
-                                </View>
-                                <View style={styles.imageWrapper}>
-                                    <Image source={images.lockdownSessions} style={styles.image} />
-                                </View>
-                               
-                            </PagerView>
-
-                        </View>
                         
-                        <EpisodeSlider />
-                        <EpisodeSlider />
+
+                <View style={{flex: 1}}>
+                    <Text style={styles.subtitle}>Browse by Genre</Text>
+                    <FlatList  data={shows} renderItem={({ item }) => (
+                        <TouchableOpacity style={styles.imageWrapper} key={Math.random() * 1000}>
+                            {/* <Text style={styles.imageText}>Podcast</Text> */}
+                            <Image source={item.image} style={styles.image} />
+                        </TouchableOpacity>
+                            )
+                        }
+                        horizontal showsHorizontalScrollIndicator={false}  />
+                </View>
+                <CategorySlider heading={'New Release'} data={shows} />
+            
             </View>
-            </View>
-            <Footer />
-            </ScrollView>
-            </View>
+        </ScrollView>
+    </View>
     );
 }
 
@@ -87,9 +88,7 @@ const styles = StyleSheet.create({
         flex: 1,
 
     },
-    mainCard: {
-        
-    },
+
     mainCardBrowser: {
         height: 150,
         
@@ -98,11 +97,6 @@ const styles = StyleSheet.create({
         fontSize: 20,
         color: '#CED4DA',
         textAlign: 'center',
-        marginTop: 10,
-        marginBottom: 10,
-        position: 'absolute',
-        top: 50,
-        zIndex: 999,
     },
     subtitle: {
         fontSize: 20,
@@ -115,20 +109,32 @@ const styles = StyleSheet.create({
     cardContainer: {
         height: 250,
     },
- 
+    cardImage: {
+        height: '100%'
+    }, 
+    cardText: {
+        color: '#f1faee',
+        fontSize: 24
+    },
+    meta: {
+        fontSize: 14,
+      color: '#F8F9FA'  
+    },
     imageWrapper: {
-        position: 'relative',
-        borderRadius: 10,
         alignItems: 'center',
-    
-    }
-    ,
+        justifyContent: 'flex-start',
+        borderRadius: 10,
+        marginLeft: 20,
+        height: 170,
+        width: 250,
+    },
     image: {
-        backgroundColor: '#343A40',
         height: 150,
         borderRadius: 10,
-        width: '70%',
+        width: 300,
         resizeMode: 'contain',
+        borderTopRightRadius: 10,
+        borderTopLeftRadius: 10,
     },
  
  
