@@ -17,7 +17,7 @@ const SideNav = () => {
     ];
     return <View style={styles.container}>
       
-    <FlatList data={sideNaveItems} renderItem={({ item }) => <Text>{item}</Text>} />
+    <FlatList data={sideNaveItems} renderItem={({ item }) => <Text key={'item'+ (Math.random() *100)}>{item}</Text>} />
   </View>;
 };
 
