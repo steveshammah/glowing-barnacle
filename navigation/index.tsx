@@ -8,7 +8,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
-import { ColorSchemeName, Pressable } from 'react-native';
+import { ColorSchemeName, LogBox, Pressable } from 'react-native';
 
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
@@ -25,6 +25,10 @@ import SubscribeScreen from '../screens/SubscribeScreen';
 import ChannelScreen from '../screens/ChannelScreen';
 import ShowScreen from '../screens/ShowScreen';
 import { UserIcon } from 'react-native-heroicons/solid';
+
+
+// Silence console warnings
+LogBox.ignoreAllLogs(true)
 
 
 
@@ -63,7 +67,7 @@ function StackNavigator() {
     <Stack.Navigator >
       <Stack.Screen name="Root" component={BottomTabNavigator} options={{ headerShown: false }}  />
       <Stack.Screen name="Channel" component={ChannelScreen} />
-        <Stack.Screen name="Latest" component={ProfileScreen}  />
+        <Stack.Screen name="Latest" component={SubscribeScreen}  />
         <Stack.Screen name="Profile" component={ProfileScreen}  />
       <Stack.Group screenOptions={{ presentation: 'modal' }}>
         <Stack.Screen name="Show" component={ShowScreen}  options={{ headerShown: false }} />
@@ -138,10 +142,10 @@ function BottomTabNavigator({navigation}) {
         }}
       />
       <BottomTab.Screen
-        name="Upload"
-        component={UploadScreen}
+        name="Subscriptions"
+        component={SubscribeScreen}
         options={{
-          title: 'Upload',
+          title: 'Subscription',
           tabBarIcon: ({ color }) => <TabBarIcon name="upload" color={color} size={20} />,
           headerRight: () => (
             <Pressable

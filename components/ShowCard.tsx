@@ -1,6 +1,8 @@
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import { TouchableOpacity, View, Text, StyleSheet, ImageBackground, Image } from "react-native";
+import 'react-native-get-random-values';
+import { v4 as uuid } from "uuid";
 import { images } from "../assets/images/index";
 
 export interface IshowData{
@@ -27,7 +29,7 @@ const ShowCard = ({ data, rounded }: ShowCardProps) => {
         
         <TouchableOpacity onPress={() => navigation.navigate('Show', {
          ...data
-        })} style={rounded ? styles.circle : styles.card}>
+        })} style={rounded ? styles.circle : styles.card} key={uuid()}>
             <Image source={image? image : images.mainLogo} style={rounded ? styles.imageCircle : styles.image} />
           {!rounded &&  <View style={styles.cardDetail}>
                 <Text style={styles.title}>{title ? title: 'Get Out Of My House 😡'}</Text>

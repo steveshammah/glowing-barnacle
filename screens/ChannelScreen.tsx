@@ -9,6 +9,8 @@ import ShowCard, { IshowData } from "../components/ShowCard";
 import { images } from "../assets/images/index";
 import content from '../assets/content.json';
 import Card from "../components/Card";
+import 'react-native-get-random-values';
+import { v4 as uuid } from "uuid";
 
 
 
@@ -36,6 +38,13 @@ const LatestContentScreen = () => {
         
     }, []);
     
+        const handleCardClick = (show: any) => {
+        navigation.navigate("Show", {
+            params: {
+                show: show
+            }
+        });
+    }
     
     useEffect(() => {
         contentData()
@@ -50,7 +59,7 @@ const LatestContentScreen = () => {
         <View style={styles.content}>
             <View style={styles.mainCard}>
                 
-                    <ShowCard data={data} />                       
+                    <ShowCard data={data} onPress={handleCardClick} />                       
               {/* <EpisodeSlider /> */}
               
               <View style={styles.content}>
@@ -58,7 +67,7 @@ const LatestContentScreen = () => {
           New Release
         </Text>
 
-      <FlatList data={content.items.splice(0,8)} renderItem={(element) => <Card element={element} key={'card'+ (Math.random() * 1000)} />} />
+      <FlatList data={content.items.splice(0,8)} renderItem={(element) => <Card data={element} key={uuid()} />} />
       </View>
                         
             </View>

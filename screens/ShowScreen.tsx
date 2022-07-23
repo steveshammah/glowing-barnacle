@@ -7,6 +7,8 @@ import useYoutube from "../hooks/useYoutube";
 import Card from "../components/Card";
 import { shows } from "../assets/database";
 import { IshowData } from "../components/ShowCard";
+import 'react-native-get-random-values';
+import { v4 as uuid } from 'uuid';
 
 
 
@@ -30,6 +32,7 @@ const ShowScreen = ({navigation, route}) => {
     }, [episodes]);
     
     return (
+        <View style={{ flex: 1 }}>
         <ScrollView style={styles.container}>
             <TouchableOpacity style={styles.backButton} onPress={() => {
                 navigation.goBack()
@@ -55,27 +58,33 @@ const ShowScreen = ({navigation, route}) => {
                 </TouchableOpacity>
                
             </View>
-            <View style={styles.content}>
+                <View style={styles.content}>
+                    <View>
+
            {activeTab === 'latest' && <FlatList data={episodes} renderItem={({ item }) => (
-                    <Card data={item} key={Math.random() * 10000} />
-                )} />
-                }
+               <Card data={item} key={uuid()} />
+               )} />
+            }
 
                      {activeTab === 'favorites' && <FlatList data={episodes} renderItem={({ item }) => (
-                    <Card data={item} key={Math.random() * 10000} />
-                )} />
-                }
+                         <Card data={item} key={uuid()} />
+                         )} />
+                        }
+                        </View>
 
+                    <View>
                 {activeTab === 'suggested' &&
                     <ScrollView>
                         <CategorySlider heading={'Channels'} data={shows} rounded/>
                         <CategorySlider heading={'For You'} data={episodes} />
                         <CategorySlider heading={'New Release'} data={episodes} />
                         </ScrollView>
-                }
+                    }
+                    </View>
             </View>
         
-      </ScrollView>
+            </ScrollView>
+            </View>
   );
 };
 

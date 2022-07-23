@@ -1,4 +1,4 @@
-import { StyleSheet, ScrollView,Text, SafeAreaView, } from "react-native";
+import { StyleSheet, ScrollView,Text, SafeAreaView, View, } from "react-native";
 import Header from "../components/Header";
 import { shows, team } from '../assets/database';
 import CategorySlider from '../components/CategorySlider';
@@ -21,9 +21,10 @@ export default function HomeScreen({navigation}) {
   // }, [navigation]);
   
   return (
+    <View style={{flex: 1}} >
     <SafeAreaView style={styles.app}>
       <Header />
-    <ScrollView style={styles.app} keyboardShouldPersistTaps='always'>
+    <ScrollView style={styles.app} keyboardShouldPersistTaps='handled'  nestedScrollEnabled={true}>
       {/* <Header /> */}
       
         <Text style={styles.landingText}>
@@ -39,7 +40,9 @@ export default function HomeScreen({navigation}) {
       
       
     </ScrollView>
-    </SafeAreaView>
+      </SafeAreaView>
+      </View>
+    
   );
 };
 
